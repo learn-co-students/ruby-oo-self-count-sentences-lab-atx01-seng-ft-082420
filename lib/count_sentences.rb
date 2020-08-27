@@ -17,6 +17,9 @@ class String
   array=[]
   def count_sentences
     self.split(/[.?!] /).count
+
+    #arr=self.gsub(/[?!]/, '?' => '.', '!' => '.').split(".")
+    #arr.length
   end
   
 end
